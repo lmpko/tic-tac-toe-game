@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="container">
+        <div id="choosePage" class="container">
+            <div>
+                <span class="x">x</span><span class="o">o</span>
+            </div>
+            <div class="pick">
+                <h3>PICK PLAYER MARK</h3>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" id="checkbox">
+                        <span class="slider round">
+                        <span class="choose">
+                            <span class="x-active">x</span>
+                            <span class="o-active">o</span>
+                        </span>
+                    </span>
+                    </label>
+                </div>
+                <h4>Good luck!</h4>
+            </div>
+            <button type="button" id="cpu-btn" class="btn btn1">
+                <span>NEW GAME vs CPU</span>
+            </button>
+            <button type="button" id="pl-btn" class="btn btn-pl btn2">
+                <span>NEW GAME vs PLAYER</span>
+            </button>
+        </div>
+
+    </div>
+</body>
+
+    <script src="js/main.js"></script>
+</html>
